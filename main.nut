@@ -43,12 +43,13 @@ class ConfigurableSubsidiesController extends GSController
     */
     function Save()
     {
-        return
-        {
-            version = 1,
+		local data = {
+			version = 1,
             managed_offers = this.managed_offers,
             next_check_date = this.next_check_date
-        };
+		};
+
+        return data;
     }
 
     /**

@@ -25,7 +25,7 @@ class ConfigurableSubsidiesInfo extends GSInfo
     function GetDescription() {
         return "Supplements vanilla subsidies with additional configurable subsidies with configurable distance and frequency.";
     }
-    function GetVersion()     { return 1; }
+    function GetVersion()     { return 2; }
     function GetDate()        { return "2026-10-20"; }
     function CreateInstance() { return "ConfigurableSubsidiesController"; }
     function GetAPIVersion()  { return "15"; }
